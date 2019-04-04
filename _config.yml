@@ -41,3 +41,28 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Jekyll-demos setting begins.
+# An optional key means if you don't give an specific setting of this key,
+# it works with default values.
+#
+# A necessary key means if you don't give an specific of this key,
+# the tool is unable to work.
+#
+# ALL [optional] settings following are given default values.
+demos:
+  # [necessary] Your front matters `id` property of the Page `list_demos.html`.
+  page_id: 2oWOSOD7OtyU
+  # [optional] When an error occurs: true -> alert() , false -> console.log().
+  debug: true
+
+  # [optional] It controls how to map your demos in demo folder
+  # to code or result viewers with file_suffix setting. ALL sub keys of file_suffix are optional.
+  file_suffix:
+    ignore_cap: true
+    suffix_pattern:
+      html: ["html","htm"]
+      js: ["js"]
+      css: ["css"]
+# Jekyll-demos setting ends.
+

@@ -1,0 +1,31 @@
+# Repository path of all your demos. it can be any value, even "/".
+demoBaseUrl: /demos/
+
+# After a demo has been moved to the repository,
+# push a demo detail to this `demo` array.
+demos:
+    # id: Must unique and named whatever you want.
+    # It is used to locate the demo folder and grabbed all the files
+    # when you add a <script> tag in your new post.
+  - id: jTtNoSGfSWnc
+    # Never used this version.
+    description: this demo's description
+    # Never used this version.
+    date: 2019-04-01
+    # Real url of this demo fold equals `demoBaseUrl` + `url`.
+    url: demo1/
+    # Never used this version.
+    categories: xxxxxx
+    # Never used this version.
+    tags: ssss
+    # Never used this version. Each element of `trace_posts` is the id property
+    # in the post page's front matters whose article is related to this demo.
+    trace_posts: [kkuErVeJTCfn]
+
+  - id: ssdioom1
+    description: this demo's description
+    date: 2019-04-01 
+    url: 2019/04/01/Other_demo/
+    categories: xxxxxx
+    tags: ssss
+    trace_posts: [kkuErVeJTCfn]
