@@ -1,0 +1,102 @@
+body{
+    margin: auto;
+    overflow-y:hidden;
+}
+#wrapper{
+    /* position: relative; */
+    /*background: red;*/
+}
+
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+ul.nav{
+    box-sizing: border-box;
+    background-color:whitesmoke; 
+    list-style-type: none;
+    /* text-align: center; */
+    margin: auto;
+    padding: 0;
+    width:100%;
+}
+
+.nav li{
+    height: 50px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.nav li>a{
+    box-sizing: border-box;
+    height: 50px;
+    display: block;
+    text-align: center;
+    width: 75px;
+    line-height: 50px;
+    text-decoration: none;
+    color:rgb(7, 40, 61);
+    font-size: 0.9rem;
+}
+#actions{
+    display: none;
+}
+.active{
+    border-bottom: .2rem solid #612c80;
+}
+
+.nav li#label{
+    position: absolute;
+    right: 0;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    overflow: auto;
+    box-sizing: border-box;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 300px;
+    height: 250px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    box-sizing: border-box;
+    width: 300px;
+    color: black;
+    font-size: 0.9rem;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #c9e1f0;.
+}
+
+#viewerContainer{
+    width:100%;
+}
+.viewer{
+    display: none;
+}
+.viewer.show{
+    display: block;
+}
+
+iframe{
+    box-sizing: border-box;
+    width: 100%;
+    display: none;
+}
+
+.show{
+    display: block;    
+}
