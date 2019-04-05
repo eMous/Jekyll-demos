@@ -1,9 +1,11 @@
 <center><h1>Jekyll-demos</h1></center>
-___
+
 
 <img src="https://raw.githubusercontent.com/eMous/__ResourceRepository/master/Jekyll_demos/2019/04/04/jekyll_demos_v1_intro.gif" style="border: solid gray 1px;     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);">
 
 Jekyll-demos is a static solution to show your `html/js/css` demos with Jekyll. And it's **not** a Jekyll plugin, so it means you are free to use it in Github Page.
+
+<center><a href="https://emous.github.io/2019/04/05/MyDemoTool/">中文版本</a></center>
 
 ## Origin
 
