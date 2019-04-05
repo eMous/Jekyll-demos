@@ -51,5 +51,3 @@ When js works, it make an http request to your site of that file and compare to 
 At last it generates the iframes dynamicly and use [CodeMirror](https://github.com/codemirror/CodeMirror/) editor to hightlight the code. 
 
 ![seq](https://raw.githubusercontent.com/eMous/__ResourceRepository/master/Jekyll_demos/2019/04/04/1554395612(1).jpg)
-```seq
-
