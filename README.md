@@ -31,6 +31,10 @@ Compare to the online-service demo revealing tools like jsfiddle/codepen etc, it
   2. Register the demo in `demoConf.yml`.
   3. ~~Include the js script.(You can do it once and for all with a layout.)~~
   4. Call a js function at anywhere you are going to show the demo.
+    like this:
+    ```html
+    <script>demo_js.EmbedDemo("89798dasoid")</script>
+    ```
 
 * It supports multiple files in each demo.
 
@@ -47,4 +51,3 @@ At last it generates the iframes dynamicly and use [CodeMirror](https://github.c
 ![seq](https://raw.githubusercontent.com/eMous/__ResourceRepository/master/Jekyll_demos/2019/04/04/1554395612(1).jpg)
 ```seq
 
-<style type="text/css">body{background:"#f3f3f3"}</style>
